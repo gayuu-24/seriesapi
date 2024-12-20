@@ -1,0 +1,17 @@
+meta {
+  name: create series
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{baseurl}}/create-series
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "seriesname":"breaking bad"
+  }
+}
